@@ -1,0 +1,34 @@
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Simple ATM</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <h2>Please enter an amount</h2>
+        <form name = "ATM" style="text-align: center"> 
+            <input type="text" name="input" id="input" style="width: fit-content; background: #f8f8f8;"><br><br>
+            <input type = "button" id = "1" value = "1" onclick= "document.ATM.input.value += '1'">
+            <input type = "button" id = "2" value = "2" onclick= "document.ATM.input.value += '2'">
+            <input type = "button" id = "3" value = "3" onclick= "document.ATM.input.value += '3'"><br>
+            <input type = "button" id = "4" value = "4" onclick= "document.ATM.input.value += '4'">
+            <input type = "button" id = "5" value = "5" onclick= "document.ATM.input.value += '5'">
+            <input type = "button" id = "6" value = "6" onclick= "document.ATM.input.value += '6'"><br>
+            <input type = "button" id = "7" value = "7" onclick= "document.ATM.input.value += '7'">
+            <input type = "button" id = "8" value = "8" onclick= "document.ATM.input.value += '8'">
+            <input type = "button" id = "9" value = "9" onclick= "document.ATM.input.value += '9'"><br>
+            <input type = "button" id = " " value = "AC" onclick= "btnclear()">
+            <input type = "button" id = "0" value = "0" onclick= "document.ATM.input.value += '0'"><br><br>
+            <button type="button" id="btn">Submit!</button><br>
+            <p>
+                <textarea rows="5" cols="10" id="txtArea1"></textarea>
+                <textarea rows="5" cols="10" id="txtArea2"></textarea>
+                <textarea rows="5" cols="10" id="txtArea3"></textarea></p>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
